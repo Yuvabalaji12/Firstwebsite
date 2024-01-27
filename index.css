@@ -1,0 +1,116 @@
+
+
+
+*{
+    padding-left:10px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:serif;
+}
+body{
+    min-height: 100vh;
+    background-image: url(Food\ background.jpg);
+    backdrop-filter: blur(6px);
+    
+    
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 20px 100px;
+    display:flex;
+    justify-content: space-between;
+
+}
+img{
+    border-radius: 100%;
+}
+ .logo h1{
+    border-radius: 0%;
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    font-family:serif;
+    font-weight: bold;
+}
+a.home{
+    color: white;
+    text-decoration: none;
+      border:outset;
+    padding-right: 8px;
+
+}
+a.about{
+    color: white;
+    text-decoration: none;
+    border:outset;
+    padding-right: 8px;
+
+}
+a.help{
+    color: white;
+    text-decoration: none;
+    border:outset;
+    padding-right: 8px;
+}
+a.contact{
+    color: white;
+    text-decoration: none;
+    border:outset;
+    padding-right: 8px;
+}
+a.login{
+    border: solid;
+    color: white;
+    text-decoration: none;
+    padding-right: 8px;
+    background-color: green;
+    border-color: green;
+}
+img.logo{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar a:hover{
+    box-shadow: 0 0 5px white,0 0 25px white,
+    0 0 50px white,0 0 100px white,
+    0 0 200px white;
+}
+.logo h1:hover{
+   text-shadow:  0 0 5px red ,0 0 25px red ,
+    0 0 50px red, 0 0 100px red ,
+     0 0 200px red,0 0 400px red ,0 0 600px red,0 0 800px red   ;
+}
+.welcome{
+    color: #fff;
+    text-align:center;
+    padding-top: 200px;
+    margin-left: 100px;
+
+}
+.welcome:hover{
+    transform:rotate3d(170deg);
+
+}
+a.login:hover{
+    box-shadow:  0 0 5px green,0 0 25px green,
+    0 0 50px green,0 0 100px green,
+    0 0 200px green;
+}
+form.search{
+    padding-right:50%;
+}
+img.title{
+    border-radius: none;
+    margin-left: 500px;
+    margin-top: 200px;
+    opacity: 80%;
+    box-shadow:  0 0 5px black ,0 0 25px black ,
+    0 0 50px black,0 0 100px black , 0 0 200px black;
+}

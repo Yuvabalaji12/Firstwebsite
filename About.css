@@ -1,0 +1,29 @@
+*{
+    padding-left:10px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:serif;
+}body{
+    min-height: 100vh;
+    background-image: url(Food\ background.jpg);
+    backdrop-filter: blur(6px);
+
+    
+}
+.head{
+    color: #fff;
+    padding-top: 10px;
+    text-decoration: underline;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.para{
+    color: #fff;
+    padding-left: 200px;
+    padding-top: 70px;
+}
+.last{
+    color: #fff;
+    padding-left: 400px;
+    padding-top: 30px;
+}

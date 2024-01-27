@@ -1,0 +1,23 @@
+*{
+    padding-left:10px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:serif;
+}
+body{
+    min-height: 100vh;
+    background-image: url(Food\ background.jpg);
+    background-attachment: fixed;
+    backdrop-filter: blur(6px);
+}
+.para{
+    color: white;
+    font-size: 50px;
+    padding-left: 500px;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right:200px ;
+    padding-left:150px;
+    border-style: outset;
+    border-color: white;
+}

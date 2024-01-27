@@ -1,0 +1,73 @@
+body{background-image:url("Food\ background.jpg");
+    background-size: 1500px ;
+    filter:contrast(100px);
+    backdrop-filter: blur(8px);
+    
+}
+h1{
+    color:white;
+    border-color: black;
+    text-align: center ;
+    border-style:inset;
+    border-color: #fff;
+    border-width: thick;
+    
+    margin-left:600px;
+    margin-right: 600px;
+
+}
+p{
+    font-family:Verdana,Tahoma, sans-serif;
+    font:size:100px;
+}
+label{
+    color: rgb(0, 3, 104);
+    border-radius:12px;
+    text-align: center;
+}
+
+input{
+    border-style:inset;
+    border-radius:5px;
+    border-color:rgb(184, 255, 20);
+    text-align: center;
+}
+b.name{
+   font-size: larger;
+}
+b.pass{
+    font-size: larger;
+}
+form{
+    border-style:double;
+    margin-left:600px;
+    margin-right: 600px;
+    background-color: aliceblue;
+    padding:(30px,30px,30px,30px);
+    background-image: url(Logo2.jpg);
+    background-size: 500px ;
+    border-radius: 20px;
+    border-color:azure;
+    padding-left:30px;
+    padding-bottom: 30px;
+}
+input.reset{
+    background-color: red;
+    border-color: red;
+}
+input.submit{
+    background-color: green;
+    border-color: green;
+}
+input.submit:hover{
+    box-shadow:  0 0 5px green,0 0 25px green,
+    0 0 50px green,0 0 100px green,
+    0 0 200px green;
+}
+input.reset:hover{
+    box-shadow:  0 0 5px red,0 0 25px red,
+    0 0 50px red,0 0 100px red,
+    0 0 200px red;
+}
+
+}

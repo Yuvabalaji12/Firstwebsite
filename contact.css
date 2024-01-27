@@ -1,0 +1,25 @@
+*{
+    padding-left:10px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:serif;
+}
+body{
+    min-height: 100vh;
+    background-image: url(Food\ background.jpg);
+    background-attachment: fixed;
+    backdrop-filter: blur(6px);
+}
+.head{
+    color: #fff;
+    text-decoration: underline;
+}
+.info{
+    color: #fff;
+    padding-top: 20px;
+}
+.insta{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
